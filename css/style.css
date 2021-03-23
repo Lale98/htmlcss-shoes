@@ -15,6 +15,7 @@ body {
     top: 0;
     right: 0;
     padding: 50px 30px;
+    z-index: 3;
 }
 
 .menu li {
@@ -26,4 +27,35 @@ body {
     margin: 0 10px;
     border-radius: 50%;
     background-color: white;
+}
+
+.menu a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.shoes {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.conteiner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
 }
